@@ -35,6 +35,7 @@ dependencies {
     // db
     compile 'com.zaxxer:HikariCP:3.4.5'
     compile 'mysql:mysql-connector-java'
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 
     // redis
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
